@@ -22,13 +22,14 @@ Aplicación web responsive que consulta la API pública de [Open-Meteo](https://
 ## Ejecutar en local
 
 ```bash
-cd nextjs-clima
 npm install
 cp .env.example .env.local   # en Windows: Copy-Item .env.example .env.local
 npm run dev
 ```
 
 Abre <http://localhost:3000>.
+
+> Si clonaste el fork `Bootcamp-FSJ35` en lugar de este repo, ejecuta `cd nextjs-clima` antes de `npm install`.
 
 ### Scripts
 
