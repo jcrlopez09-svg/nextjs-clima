@@ -77,10 +77,10 @@ src/
 
 ## Despliegue en Vercel
 
-1. Sube los cambios a GitHub (`git push origin main`). El proyecto está dentro de la carpeta `nextjs-clima` del repositorio.
-2. Entra en [vercel.com/new](https://vercel.com/new) e importa el repositorio `JairoAdrianVR/Bootcamp-FSJ35`.
+1. Sube los cambios a GitHub (`git push origin main`). En este repositorio la aplicación está en la raíz.
+2. Entra en [vercel.com/new](https://vercel.com/new) e importa el repositorio `jcrlopez09-svg/nextjs-clima`.
 3. Configura:
-   - **Root Directory:** `nextjs-clima`
+   - **Root Directory:** déjalo vacío (la raíz ya contiene `package.json`).
    - **Framework Preset:** Next.js (detección automática)
    - **Build Command:** `npm run build`
    - **Output Directory:** `.next`
@@ -88,7 +88,7 @@ src/
 5. Pulsa **Deploy**. Vercel asignará una URL pública tipo `https://<proyecto>.vercel.app`.
 6. Opcional: añade un dominio propio en *Project Settings → Domains*.
 
-> Nota: si despliegas desde la raíz del repositorio en lugar de usar *Root Directory*, Vercel no encontrará `package.json`. Asegúrate de seleccionar `nextjs-clima`.
+> Nota: si prefieres desplegar desde el fork `jcrlopez09-svg/Bootcamp-FSJ35`, importa ese repositorio y selecciona **Root Directory:** `nextjs-clima`. En el repo independiente `nextjs-clima` no hay que configurar *Root Directory*.
 
 ## API externa
 
